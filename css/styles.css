@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    background-color: #e5e5e5; /* Light grey background for main content */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.product, .gallery img {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: inline-block;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 5px 0;
+}
+
+form input, form textarea {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #c00; /* Red color for buttons */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header {
+    background-color: #c00; /* Red header background */
+}
+
+nav ul li a:hover {
+    color: #ccc; /* Light grey color on hover */
+}
+
+footer {
+    background-color: #c00; /* Red footer background */
+}
+
+h1, h2, h3 {
+    color: #ccc; /* Light grey color for headings */
+}
+
+.product, .gallery img {
+    border: 2px solid #c00; /* Red border for products and gallery images */
+}
+
+.product h3, .product p {
+    color: #333; /* Dark grey color for product text */
+}
